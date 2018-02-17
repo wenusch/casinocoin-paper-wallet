@@ -8,7 +8,7 @@ Run the following commands from the location where de Dockerfile is locted.
  
  ```docker build -t paperwallet .```
  
-Make sure you have no software runnign on port 8080
+Make sure you have no software running on port 8080
 
 ```docker run -p 8080:80 -ti paperwallet:latest``` 
 
